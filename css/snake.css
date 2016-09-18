@@ -1,0 +1,49 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  height: inherit;
+  width: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+}
+
+.apple {
+  background: red;
+}
+.snake {
+  width: 400px;
+  border: 15px solid black;
+}
+
+.snake-body {
+  background: green;
+}
+
+
+ul {
+  list-style-type: none;
+  height: 20px;
+}
+
+li {
+  width: 20px;
+  float: left;
+}
